@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", Medium;
+    color: #303030;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#pesquisa{
+    background-image: url("../assets/icons/lupa.svg");
+    background-repeat: no-repeat;
+    background-size: 1.3em;
+    background-position: 150px center;
+    
+}
+button, input, select{
+    height: 40px;
+    width: 200px;
+
+
+    border-radius: 30px;
+    border: 2px solid rgba(48, 48, 48, 0.561);
+    padding: 20px;
+    color: #303030;
+    font-size: 20px;
+
+}
+
+
+.svgs-header img{
+    height: 40px;
+    width: 60px;
+    
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    padding: 130px 0px;
+}
+
+.about img{
+    width: 500px;
+}
+
+.texto-about{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.texto-about h1{
+    font-family: "Nunito", Bold; 
+    font-size: 50px;
+
+    display: flex;
+    align-items: self-start;
+}
+
+.texto-about p{
+    font-size: 30px;
+    width: 650px;
+}
+
