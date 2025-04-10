@@ -40,7 +40,9 @@ a{
     background-size: 1.3em;
     background-position: 150px center;
     
+    padding-right: 50px;
 }
+
 button, input, select{
     height: 40px;
     width: 200px;
@@ -95,3 +97,35 @@ button, input, select{
     width: 650px;
 }
 
+.banner2 img{
+    width: 100%;
+}
+
+.produtos {
+    padding: 120px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+
+.produtos h2{
+    font-size: 50px;
+    font-family: "Nunito", Bold;
+}
+
+#produtos-pesquisa{
+    background-image: url("../assets/icons/lupa.svg");
+    background-repeat: no-repeat;
+    background-size: 1.6em;
+    background-position: 140px center;
+    
+    padding-right: 50px;
+}
+
+.banner2 input{
+    border-radius: 20px;
+
+    height: 50px;
+    width: 190px;
+}
