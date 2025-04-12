@@ -206,8 +206,18 @@ button{
     margin-top: 30px;
     font-size: 20px;
 
+    transition: background-color 0.3s ease;
+
     cursor: pointer;
 }
+
+button:hover{
+    background-color: #637DBD;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
 
 .back{
     height: 100px;
@@ -230,3 +240,22 @@ button{
     padding: 10px 20px;
     height: 50px;
 }
+
+.zoom {
+    transition: transform 0.3s ease;
+
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+  }
+
+  footer{
+    height: 700px;
+
+    display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+  }
