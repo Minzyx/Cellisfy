@@ -8,6 +8,10 @@
     color: #303030;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 header{
     display: flex;
     align-items: center;
@@ -306,6 +310,25 @@ button:hover{
 .suporte p{
     padding: 10px 0px;
     font-size: 20px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.email img{
+    padding-right: 20px;
+}
+
+.point{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.point img{
+    padding-right: 20px;
 }
 
 .help{
